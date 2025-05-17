@@ -55,6 +55,7 @@
                         
                         // 課題4-3. ここにコードを書く
                         // 在庫用のエレメントを抽出し、HTML内の個数を更新
+                        const stockElem = document.getElementById("stock" + this.id);
                         if (stockElem) {
                     stockElem.textContent = this.stock;
                 }
